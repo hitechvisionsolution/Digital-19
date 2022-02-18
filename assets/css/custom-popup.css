@@ -1,0 +1,190 @@
+.customised-popup-modal{
+    position: fixed;
+    background: rgb(160 187 178 / 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow-y: auto; 
+    padding: 150px 150px 60px 150px;
+    display: none;
+/*    transition: 0.3s*/
+}
+/*
+.customised-popup-modal {
+    display: block;
+}
+*/
+.custom-content-body-item{
+    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+}
+.container-modal-sec{
+    padding:20px 65px
+}
+/*Header stat Figure*/
+.modal-content-header h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000
+}
+.customised-popup-modal .roas-absolute{
+    right: 75px;
+    top: 55px
+}
+.campaign-timings{
+    font-size: 19px;
+    line-height: 1;
+    font-weight: 500;
+    color: #555;
+}
+.modal-content-stat-figure{
+    margin-top: 25px;
+}
+.content-stat-individual-figure{
+    margin-bottom: 40px;
+}
+.modal-content-stat-figure h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000
+}
+.modal-content-stat-figure p{
+    font-size: 13.5px;
+    line-height: 0;
+    font-weight: 400;
+    color: #444;
+}
+
+/*---------Left & Right Arrow---------*/
+.directional-key a img{
+    width: 64px
+}
+.nav-modal-left-arrow{
+    position: absolute;
+    left: 35px;
+    top: 90%;
+}
+.nav-modal-right-arrow{
+    position: absolute;
+    right: 35px;
+    top: 90%;    
+}
+
+/*CLose*/
+.closing-modal-section {
+    position: absolute;
+    right: 99px;
+    top: 112px;
+}
+
+.closing-modal-section img{
+    width: 40px;
+}
+.modal-screenshot-proof img{
+    border: 1px solid #ccc7c7
+}
+@media only screen and (max-width: 1366px)  and (min-width: 1300px) {
+    .customised-popup-modal {
+        padding: 120px 120px 60px 120px !important;
+    }
+    .closing-modal-section {
+        right: 66px !important;
+        top: 70px !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 992px){
+    .container-modal-sec {
+        padding: 20px 35px !important;
+    }
+    .customised-popup-modal {
+        padding: 120px 120px 60px 120px !important;
+    }
+    .custom-content-body-item {
+        padding-bottom: 25px !important;
+    }
+    .closing-modal-section {
+        right: 66px !important;
+        top: 70px !important;
+    }
+    .directional-key a img {
+        width: 50px !important;
+    }
+    .nav-modal-left-arrow {
+        left: 30px;
+    }
+    .nav-modal-right-arrow {
+        right: 30px;
+    }
+}
+/**********----------MOBILE MENY*********----------*/
+@media only screen and (min-width:300px) and (max-width:500px){
+    .customised-popup-modal {
+        padding:30px 20px;
+    }
+    .modal-content-header h2 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .campaign-timings {
+        font-size: 16px;
+        line-height: 1;
+        font-weight: 500;
+        color: #555;
+    }
+    .modal-content-stat-figure {
+        margin-top: 59px;
+    }
+    .modal-content-stat-figure p {
+        font-size: 13px;
+        line-height: 1;
+    }
+    .custom-content-body-item {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .closing-modal-section {
+        position: absolute;
+        top: 10px;
+        z-index: 999;
+        left: 45%;
+    }
+    .closing-modal-section img{
+        border: 3px solid #616161;
+        border-radius: 50%;
+    }
+    .customised-popup-modal {
+        padding: 55px 20px;
+    }
+    .nav-modal-left-arrow {
+        left: 11px;
+        top: 53%;
+        z-index: 999;
+    }
+    .nav-modal-right-arrow {
+        right: 11px;
+        top: 53%;
+        z-index: 999;
+    }
+    .directional-key a img {
+        width: 32px;
+    }
+    .customised-popup-modal {
+        background: rgb(160 187 178 / 0.8);
+    }
+    .customised-popup-modal .roas-absolute {
+        right: 15px;
+        top: 30px;
+    }
+    .content-stat-individual-figure {
+        margin-bottom: 15px;
+    }
+    .container-modal-sec {
+        padding: 15px 1px;
+    }
+}

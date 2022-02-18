@@ -1,0 +1,56 @@
+.footer-section-page{
+    background: #1E312C;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+.footer-copyright{
+    color: rgba(255,255,255,0.6);
+    font-size: 17px;
+}
+
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    float: right;
+}
+.footer-menu ul li{
+    float: left;
+/*    margin-right: 25px;*/
+    margin-left: 30px;
+}
+.footer-menu ul li a{
+    color: #ebedef;
+    display: block;
+    font-size: 17px;
+    text-decoration: none
+}
+
+
+/**********----------MOBILE MENY*********----------*/
+@media only screen and (min-width:300px) and (max-width:500px){
+    .footer-menu {
+        
+        order: 1
+    }
+    .footer-menu ul {
+        float: left;
+    }
+
+    .footer-menu ul li a {
+        font-size: 12px;
+    }
+    .footer-menu ul li {
+        float: left;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .footer-copyright { 
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+        order: 2
+    }
+    
+}
